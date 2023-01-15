@@ -1,0 +1,2 @@
+https://ko.javascript.info/intro 로 공부
+node.js 교과서를 학습하면서 필요한 부분이 생길 떄 마다 공부 진행
