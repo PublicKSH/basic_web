@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> function </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            'use strict';
+            let userName = 'John';
+            function showMessage1() {
+                let message = "안녕하세요!"; // 지역 변수
+
+                alert(message);
+            }
+            function showMessage2() {
+                let message = userName + "안녕하세요!"; //  외부 변수 사용
+
+                alert(message);
+            }
+            showMessage1();
+            showMessage2();
+
+            let x = prompt("x?", '');
+            let n = prompt("n?", '');
+            function pow(x, n) {
+                let result = x;
+                for (let i =1; i <n; i++) {
+                    result *= x;
+                }
+                return result;
+            }
+            if (n < 1) {
+            alert(`${n}은 양의 정수이어야 합니다.`);
+            } else {
+            alert( pow(x, n) );
+            }
+        </script>
+    </body>
+</html>
