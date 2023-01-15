@@ -1,0 +1,1 @@
+// 다른 switch-case문과 비슷
