@@ -13,3 +13,7 @@ const let -> 완료
 async/await
 
 프런트엔드 자바스크립트
+
+깊은복사 -> https://html.spec.whatwg.org/multipage/structured-data.html#safe-passing-of-structured-data
+해당 링크의 알고리즘 사용
+자바스크립트 라이브러리 lodash의 메서드인 _.cloneDeep(obj)을 사용하면 이 알고리즘을 직접 구현하지 않고도 깊은 복사를 처리할 수 있으므로 참고하시기 바랍니다.
