@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <script>
+            // 문제 1
+            /*
+            let user = {
+                name : "John",
+                surname : "Smith",
+            }
+            console.log(user.name);
+            user[name] = "Pete";
+
+            console.log(user.name); 
+            delete user.name;
+            */
+
+            // 문제 2
+            /*
+            let isEmpty = (obj) => {
+                for (let key in obj) { // 반복문이 시작되면 property가 있다는 것이기 떄문에
+                    return false;
+                }
+                return true;
+            }
+
+            let schedule = {};
+
+            alert( isEmpty(schedule) ); // true
+
+            schedule["8:30"] = "get up";
+
+            alert( isEmpty(schedule) ); // false
+            */
+
+            // 함수 호출 전
+            function multiplyNumeric(obj) {
+                for (let key in obj) {
+                    if (typeof obj[key] == 'number') {
+                        obj[key] *= 2;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
