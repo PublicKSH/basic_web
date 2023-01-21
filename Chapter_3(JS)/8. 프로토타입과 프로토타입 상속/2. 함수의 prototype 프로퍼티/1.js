@@ -1,0 +1,1 @@
+// 1. 함수의 디폴트 프로퍼티 prototype과 constructor 프로퍼티
